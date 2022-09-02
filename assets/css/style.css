@@ -267,7 +267,7 @@ header .container {
 .hero-title > span {
   display: inline-block;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--golden-puppy);
+  -webkit-text-stroke-color: var(--blue);
   -webkit-text-fill-color: transparent;
 }
 
@@ -364,7 +364,7 @@ header .container {
 }
 
 .product-card-menu {
-  background: var(--golden-puppy);
+  background: var(--blue);
   color: var(--black);
 }
 
@@ -378,7 +378,7 @@ header .container {
 .add-to-whishlist:is(:hover, :focus) { --white: hsl(0, 0%, 80%); }
 
 .place-bid-btn {
-  background: var(--golden-puppy);
+  background: var(--blue);
   color: var(--black);
   position: absolute;
   top: 50%;
@@ -428,7 +428,7 @@ header .container {
   font-size: var(--fs-8);
 }
 
-.author-username:is(:hover, :focus) { color: var(--golden-puppy); }
+.author-username:is(:hover, :focus) { color: var(--blue); }
 
 .product-price data {
   font-size: var(--fs-6);
@@ -443,7 +443,7 @@ header .container {
 }
 
 .tag {
-  background: var(--golden-puppy);
+  background: var(--blue);
   color: var(--black);
   padding: 4px 10px;
   border-radius: 4px;
