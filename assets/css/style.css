@@ -127,7 +127,7 @@ button, a, input, [tabindex] { outline-offset: 4px; }
 
 ::-webkit-scrollbar-thumb { background: var(--blue); }
 
-::-webkit-scrollbar-thumb:hover { --blue: hsl(47, 100%, 40%); }
+::-webkit-scrollbar-thumb:hover { --blue: hsl(195. 86%, 50%); }
 
 ::-webkit-scrollbar-button { height: 5px; }
 
@@ -181,7 +181,7 @@ button, a, input, [tabindex] { outline-offset: 4px; }
   color: var(--black);
 }
 
-.btn-primary:is(:hover, :focus) { --blue: hsl(47, 100%, 45%); }
+.btn-primary:is(:hover, :focus) { --blue: hsl(195, 86%, 50%); }
 
 .btn-secondary:is(:hover, :focus) { background: hsla(47, 100%, 45%, 0.1); }
 
