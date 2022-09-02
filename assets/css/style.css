@@ -125,9 +125,9 @@ button, a, input, [tabindex] { outline-offset: 4px; }
   border-left: 1px solid var(--onyx-1);
 }
 
-::-webkit-scrollbar-thumb { background: var(--golden-puppy); }
+::-webkit-scrollbar-thumb { background: var(--blue); }
 
-::-webkit-scrollbar-thumb:hover { --golden-puppy: hsl(47, 100%, 40%); }
+::-webkit-scrollbar-thumb:hover { --blue: hsl(47, 100%, 40%); }
 
 ::-webkit-scrollbar-button { height: 5px; }
 
@@ -172,16 +172,16 @@ button, a, input, [tabindex] { outline-offset: 4px; }
   text-transform: uppercase;
   min-width: 130px;
   padding: 10px 15px;
-  border: 1px solid var(--golden-puppy);
+  border: 1px solid var(--blue);
   border-radius: 4px;
 }
 
 .btn-primary {
-  background: var(--golden-puppy);
+  background: var(--blue);
   color: var(--black);
 }
 
-.btn-primary:is(:hover, :focus) { --golden-puppy: hsl(47, 100%, 45%); }
+.btn-primary:is(:hover, :focus) { --blue: hsl(47, 100%, 45%); }
 
 .btn-secondary:is(:hover, :focus) { background: hsla(47, 100%, 45%, 0.1); }
 
