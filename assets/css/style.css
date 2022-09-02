@@ -533,7 +533,7 @@ header .container {
   transition: var(--transition);
 }
 
-.about-item:hover .about-card-title { color: var(--golden-puppy); }
+.about-item:hover .about-card-title { color: var(--blue); }
 
 .about-card-text {
   font-size: var(--fs-7);
@@ -571,7 +571,7 @@ header .container {
   gap: 5px;
 }
 
-.top-seller-title span { color: var(--golden-puppy); }
+.top-seller-title span { color: var(--blue); }
 
 .top-seller-title ion-icon { margin-left: 10px; }
 
@@ -619,7 +619,7 @@ header .container {
 }
 
 .top-seller-card:hover::before,
-.top-seller-card:hover::after { background: var(--golden-puppy); }
+.top-seller-card:hover::after { background: var(--blue); }
 
 .top-seller .card-number {
   position: absolute;
@@ -644,7 +644,7 @@ header .container {
   position: absolute;
   bottom: 5px;
   right: 0;
-  background: var(--golden-puppy);
+  background: var(--blue);
   border-radius: 50%;
   height: 14px;
   width: 14px;
@@ -661,7 +661,7 @@ header .container {
   transition: var(--transition);
 }
 
-.top-seller-card:hover .card-title { color: var(--golden-puppy); }
+.top-seller-card:hover .card-title { color: var(--blue); }
 
 .top-seller .card-content data {
   color: var(--quick-silver);
@@ -709,7 +709,7 @@ header .container {
   transition: var(--transition);
 }
 
-.social-link:hover { color: var(--golden-puppy); }
+.social-link:hover { color: var(--blue); }
 
 .footer-link-box {
   display: grid;
@@ -741,7 +741,7 @@ header .container {
 }
 
 .footer-item:hover::before {
-  background: var(--golden-puppy);
+  background: var(--blue);
   border-color: var(--field-drab);
 }
 
@@ -753,7 +753,7 @@ header .container {
   transition: var(--transition);
 }
 
-.footer-item:hover .footer-link { color: var(--golden-puppy); }
+.footer-item:hover .footer-link { color: var(--blue); }
 
 .footer-item:hover::before,
 .footer-item:hover .footer-link { transform: translateX(10px); }
@@ -776,7 +776,7 @@ header .container {
   color: var(--white);
 }
 
-.copyright > a:hover { color: var(--golden-puppy); }
+.copyright > a:hover { color: var(--blue); }
 
 .footer-bottom-links {
   display: flex;
@@ -793,7 +793,7 @@ header .container {
   transition: var(--transition);
 }
 
-.footer-bottom-links a:hover { color: var(--golden-puppy); }
+.footer-bottom-links a:hover { color: var(--blue); }
 
 
 
@@ -805,7 +805,7 @@ header .container {
 
 .go-top {
   background: var(--eerie-black-1);
-  color: var(--golden-puppy);
+  color: var(--blue);
   position: fixed;
   bottom: 20px;
   right: 20px;
